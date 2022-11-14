@@ -99,12 +99,7 @@ function Suggestion(props) {
 
   return (
     <Theme.Provider theme={props.theme}>
-      <Box
-        paddingBottom="space10"
-        margin="space0"
-        height="size20"
-        paddingTop="space0"
-      >
+      <Box paddingBottom="space10" margin="space0" paddingTop="space0">
         <Separator
           orientation="horizontal"
           verticalSpacing="space0"
